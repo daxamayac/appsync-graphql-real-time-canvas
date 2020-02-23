@@ -122,6 +122,7 @@ class Demo extends Component {
   render() {
     return (
       <div>
+      DX edit
         <button name='clearbutton' onClick={this.clear}>Clear</button>
         <CanvasDraw
           {...this.state}
